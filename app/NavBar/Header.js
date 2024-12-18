@@ -398,35 +398,35 @@ const Header = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8  justify-around text-center"style={{margin:'0 3rem 0 3rem'}}>
       {/* Phone */}
         <div className="bg-cyan-800  flex justify-center items-center rounded mb-2">
-          <div className="bg-white p-2 rounded-full">
+          <div className="bg-white p-2 rounded-full m-1">
             <svg className="w-6 h-6 text-teal-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10v11a1 1 0 001 1h16a1 1 0 001-1V10M8 3h8a1 1 0 011 1v4H7V4a1 1 0 011-1z" />
             </svg>
           </div>
           <div> 
-          <p className="font-bold">Phone Number</p>
-          <p className="text-sm">+974 3118 1843</p>
+          <p className="font-bold text-start">Phone Number</p>
+          <p className="text-sm text-start">+974 3118 1843</p>
           </div>
           
      
       </div>
       {/* Email */}
         <div className="  bg-cyan-800 flex justify-center items-center rounded mb-2">
-          <div className="bg-white p-2 rounded-full">
+          <div className="bg-white p-2 rounded-full m-1">
             <svg className="w-6 h-6 text-teal-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v9a2 2 0 002 2z" />
             </svg>
           </div>
           <div> 
 
-          <p className="font-bold">Email Address</p>
-          <p className="text-sm">Elbritqhr@gmail.com</p>
+          <p className="font-bold text-start">Email Address</p>
+          <p className="text-sm text-start">Elbritqhr@gmail.com</p>
           </div>
       
       </div>
       {/* Location */}
         <div className="  bg-cyan-800 flex justify-center items-center rounded mb-2">
-          <div className="bg-white p-2 rounded-full m-4">
+          <div className="bg-white p-2 rounded-full m-1">
             <svg className="w-6 h-6 text-teal-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657A8 8 0 118 3a8 8 0 019.657 13.657z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -434,8 +434,8 @@ const Header = () => {
           </div>
           <div>
 
-        <p className="font-bold ">Office Location</p>
-        <p className="text-sm ">Ambassador Street, Zone 61</p>
+        <p className="font-bold text-start">Office Location</p>
+        <p className="text-sm  text-start">Ambassador Street, Zone61</p>
           </div>
         </div>
     </div>
