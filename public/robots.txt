@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vitaboosthub.netlify.app
+
+# Sitemaps
+Sitemap: https://vitaboosthub.netlify.app/sitemap.xml
